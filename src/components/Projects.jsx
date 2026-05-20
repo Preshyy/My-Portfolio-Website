@@ -1,7 +1,6 @@
 import React from 'react'
 import ProjectImg from '../assets/projects/bulb02.jpg'
 import WorkImg from '../assets/projects/gear.jpg'
-import PortfolioImg from '../assets/projects/gear01.jpg'
 import FigmaImg from '../assets/figma.png'
 
 const Projects = () => {
