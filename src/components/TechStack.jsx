@@ -13,10 +13,10 @@ import Docker from '../assets/docker.png';
 
 const TechStack = () => {
   return (
-    <div name="techstack" className='w-full h-screen bg-[#292929] py-20 text-[#ccd6f6]'>
+    <div name="techstack" className='w-full h-screen bg-[#292929] text-[#ccd6f6]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#ccd6f6]'>Tech Stack</p>
+                <p className='text-4xl font-bold inline-block border-b-4 border-[#ccd6f6]'>Tech Stack</p>
                 <p className='py-4'>My most proficient technologies:</p>
             </div>
 
