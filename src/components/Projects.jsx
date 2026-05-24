@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectImg from '../assets/projects/bulb02.jpg'
-import WorkImg from '../assets/projects/gear.jpg'
+import ReactTailwind from '../assets/projects/react-tailwind.png'
+import HTMLCSS from '../assets/projects/html-css.png'
 import FigmaImg from '../assets/figma.png'
 
 const Projects = () => {
@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
 
                 {/* Grid Item 2 */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} 
+                <div style={{backgroundImage: `url(${HTMLCSS})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
@@ -47,7 +47,7 @@ const Projects = () => {
                 </div>
 
                 {/* Grid Item 3 */}
-                <div style={{backgroundImage: `url(${ProjectImg})`}} 
+                <div style={{backgroundImage: `url(${ReactTailwind})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
