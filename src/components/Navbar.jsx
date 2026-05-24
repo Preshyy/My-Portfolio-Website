@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setIsMenuOpen(!isMenuOpen)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#292929] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#292929] text-gray-300 z-50'>
         <div>
             <img src={Logo} alt="Logo" style={{width: '50px'}} />
         </div>
@@ -54,14 +54,14 @@ const Navbar = () => {
             </li>
             <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-                Skills
+            <Link onClick={handleClick} to='techstack' smooth={true} duration={500}>
+                Tech Stack
             </Link>
             </li>
             <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to='techstack' smooth={true} duration={500}>
-                Tech Stack
+            <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+                Projects
             </Link>
             </li>
             <li className='py-6 text-4xl'>
