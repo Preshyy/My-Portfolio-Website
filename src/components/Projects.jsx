@@ -17,7 +17,7 @@ const Projects = () => {
 
                 {/* Grid Item 1 */}
                 <div style={{backgroundImage: `url(${FigmaImg})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center hover:scale-110 duration-500 py-4 items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>My Figma Portfolio</span>
@@ -31,7 +31,7 @@ const Projects = () => {
 
                 {/* Grid Item 2 */}
                 <div style={{backgroundImage: `url(${HTMLCSS})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center hover:scale-110 duration-500 py-4 items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>Auto-Shop Website</span>
@@ -48,7 +48,7 @@ const Projects = () => {
 
                 {/* Grid Item 3 */}
                 <div style={{backgroundImage: `url(${ReactTailwind})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center hover:scale-110 duration-500 py-4 items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>This Website</span>
