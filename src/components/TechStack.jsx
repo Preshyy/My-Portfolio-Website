@@ -1,6 +1,5 @@
 import React from 'react'
 
-import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
@@ -8,6 +7,11 @@ import Node from '../assets/node.png';
 import PostgreSQL from '../assets/postgresql.png';
 import Tailwind from '../assets/tailwind.png';
 import Docker from '../assets/docker.png';
+import HTMLCSS from '../assets/projects/html-css-01.png'
+import TypeScript from '../assets/typescript.png'
+import Firebase from '../assets/firebase.png'
+import NextJS from '../assets/nextjs.jpg'
+import Figma from '../assets/figma-01.png'
 
 const TechStack = () => {
   return (
@@ -21,12 +25,12 @@ const TechStack = () => {
             {/* Tech Stack Icons */}
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={HTML} alt="HTML icon" /> 
-                    <p className='my-4'>HTML</p>
+                    <img className='w-20 mx-auto' src={HTMLCSS} alt="HTML icon" /> 
+                    <p className='my-4'>HTML/CSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={CSS} alt="CSS icon" /> 
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src={TypeScript} alt="Typescript icon" /> 
+                    <p className='my-4'>Typescript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" /> 
@@ -51,6 +55,14 @@ const TechStack = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={PostgreSQL} alt="PostgreSQL icon" /> 
                     <p className='my-4'>PostgreSQL</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" /> 
+                    <p className='my-4'>Firebase</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
+                    <img className='w-20 mx-auto' src={NextJS} alt="Next.Js icon" /> 
+                    <p className='my-4'>Nextjs</p>
                 </div>
             </div>
         </div>
