@@ -10,7 +10,6 @@ import HTMLCSS from '../assets/projects/html-css-01.png'
 import TypeScript from '../assets/typescript.png'
 import Firebase from '../assets/firebase.png'
 import NextJS from '../assets/nextjs.jpg'
-import Figma from '../assets/figma-01.png'
 
 const TechStack = () => {
   return (
