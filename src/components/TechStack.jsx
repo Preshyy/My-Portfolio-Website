@@ -8,8 +8,6 @@ import Tailwind from '../assets/tailwind.png';
 import Docker from '../assets/docker.png';
 import HTMLCSS from '../assets/projects/html-css-01.png'
 import TypeScript from '../assets/typescript.png'
-import Firebase from '../assets/firebase.png'
-import NextJS from '../assets/nextjs.jpg'
 
 const TechStack = () => {
   return (
@@ -53,14 +51,6 @@ const TechStack = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img className='w-20 mx-auto' src={PostgreSQL} alt="PostgreSQL icon" /> 
                     <p className='my-4'>PostgreSQL</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" /> 
-                    <p className='my-4'>Firebase</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img className='w-20 mx-auto' src={NextJS} alt="Next.Js icon" /> 
-                    <p className='my-4'>Nextjs</p>
                 </div>
             </div>
         </div>
